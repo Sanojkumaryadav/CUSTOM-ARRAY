@@ -32,11 +32,7 @@ MyArray.prototype.size = function() {
 }
 
 MyArray.prototype.print = function() {
-    // var output='';
-    // for(var index=0 ; index<this.length ; index++){
-    //   output+=(this[index])+" ";
-    // }
-    // console.log(output);
+    
     var output=[];
     for(var index=0 ; index<this.length ; index++){
       output.push(this[index]);
@@ -50,11 +46,7 @@ MyArray.prototype.printReverse = function() {
       output+=(this[index])+" ";
     }
     console.log(output);
-    // var output=[];
-    // for(var index=this.length-1 ; index>=0 ; index--){
-    //   output.push(this[index]);
-    // }
-    // console.log(output);
+    
 }
 
 const arr = new MyArray(1, 2, 3);
